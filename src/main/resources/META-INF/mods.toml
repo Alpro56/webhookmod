@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="webhookmod"
+version="1.0.0"
+displayName="Webhook Mod"
+description='''
+Mod de ejemplo para enviar webhooks mediante comandos en Forge 1.20.1.
+'''
+updateJSONURL=""
+issueTrackerURL="https://github.com/example/webhookmod/issues"
+author="Example"
+
+[[dependencies.webhookmod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.webhookmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
